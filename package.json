@@ -1,0 +1,60 @@
+{
+  "name": "countries.json",
+  "version": "1.0.0",
+  "description": "A module providing detailed data about countries, subdivisions, and postal codes.",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "prebuild": "npm run clean",
+    "build": "babel src --out-dir dist",
+    "test": "jest",
+    "release": "release-it"
+  },
+  "keywords": [
+    "country",
+    "postal codes",
+    "subdivisions",
+    "country codes",
+    "ISO 3166",
+    "localization",
+    "i18n",
+    "internationalization",
+    "geography",
+    "regions",
+    "provinces",
+    "states",
+    "territories"
+  ],
+  "author": "Cuttlesoft <engineering@cuttlesoft.com>",
+  "license": "MIT",
+  "jest": {
+    "roots": [
+      "<rootDir>/src",
+      "<rootDir>/tests"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.22.9",
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "jest": "^29.6.1",
+    "release-it": "^16.1.2",
+    "rimraf": "^5.0.1"
+  },
+  "release-it": {
+    "git": {
+      "push": false,
+      "commit": false,
+      "requireCommits": true,
+      "commitMessage": "Release v${version}",
+      "tagName": "${version}"
+    },
+    "github": {
+      "release": true,
+      "releaseName": "💎 (Release) ${version}"
+    },
+    "npm": {
+      "publish": true
+    }
+  }
+}
