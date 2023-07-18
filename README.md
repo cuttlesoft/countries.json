@@ -4,16 +4,27 @@ This repository hosts a rich dataset featuring countries, their ISO standard cod
 
 The repository provides a JavaScript helper file for easy integration into web applications.
 
+## 📦 Install
+
+You can install this module directly from the npm registry:
+
+```bash
+npm install @cuttlesoft/countries.json
+```
+
 ## ✨ Features
 
-<dl>
-  <dt>Comprehensive Country Data</dt>
-  <dd>The repository hosts an extensive dataset with country-specific details including country name, subdivisions, and postal codes, all in compliance with ISO standards.</dd>
-  <dt>Easy Integration</dt>
-  <dd>A JavaScript helper function is included that lets you quickly import and utilize the data in your web application.</dd>
-  <dt>Localization Ready</dt>
-  <dd>The data set includes localized names for subdivisions and postal codes, perfect for creating localization features in your application.</dd>
-</dl>
+- **Comprehensive Country Data**
+  
+  The repository hosts an extensive dataset with country-specific details including country name, subdivisions, and postal codes, all in compliance with ISO standards.
+
+- **Easy Integration**
+
+  A JavaScript helper function is included that lets you quickly import and utilize the data in your web application.
+
+- **Localization Ready**
+
+  The data set includes localized names for subdivisions and postal codes, perfect for creating localization features in your application.
 
 ## Use Cases
 
