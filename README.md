@@ -1,5 +1,7 @@
 # countries.json
 
+[![JavaScript experts and Node.js masters delivering custom software development solutions. Specialized in React, full-stack web applications, and bespoke JavaScript projects. Professional developers crafting tailored, high-performance code for modern business needs.](https://static.cuttlesoft.com/wp-content/uploads/2024/09/05190026/970x250-banner-variation-20.png)](https://cuttlesoft.com/services/javascript/)
+
 This repository hosts a rich dataset featuring countries, their ISO standard codes, subdivisions, and localized names for those subdivisions. It also includes data on whether a postal code system exists for the country and the common name for it. Each country data is represented as a JSON object and organized in a directory by the country's two-digit ISO code.
 
 The repository provides a JavaScript helper file for easy integration into web applications.
@@ -83,3 +85,9 @@ Example schema:
 ## ⚖️ License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+## 🤝 Need Help with Your JavaScript Project?
+
+At Cuttlesoft, we specialize in [JavaScript development](https://cuttlesoft.com/services/javascript/), including advanced techniques like data manipulation and dynamic user interfaces. Whether you need assistance implementing complex algorithms, optimizing performance, or scaling your JavaScript application, our team of expert developers is here to help. From front-end frameworks to back-end Node.js solutions, we've got you covered.
+
+[Contact us](https://cuttlesoft.com/contact/) to discuss how we can elevate your JavaScript project to new heights!
